@@ -1,0 +1,36 @@
+exhibit
+	art
+		ArtID - int PRIMARY KEY
+		ArtTitle - VARCHAR[50]
+		ArtType - char[15]
+		ArtistID - int FOREIGN KEY
+
+	artist
+		ArtistID - int PRIMARY KEY
+		name - VARCHAR[50]
+		EmailAdd - VARCHAR[100]
+		
+	exhibit
+		ExhibitID - int PRIMARY KEY
+		StartDate - TIMESTAMP
+		EndDate - TIMESTAMP
+		Theme - VARCHAR[100]
+		TransactionID - int FOREIGN KEY
+
+	music
+		MusicID - int PRIMARY KEY
+		MusicTitle - VARCHAR[100]
+		MusicGenre - VARCHAR[50]
+		ArtistID - int FOREIGN KEY
+
+	poetry
+		PoetryID - int PRIMARY KEY
+		PoetryTitle - VARCHAR[100]
+		ArtistID - int FOREIGN KEY
+
+	transaction
+		TransactionID - int PRIMARY KEY
+		TransactionDate - TIMESTAMP
+		ArtistID - int FOREIGN KEY
+
+		

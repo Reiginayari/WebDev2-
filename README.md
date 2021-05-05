@@ -1,0 +1,1 @@
+"php artisan serve" to run this on localhost:8000
