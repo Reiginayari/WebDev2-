@@ -1,0 +1,75 @@
+#mainSide{
+    padding: 0 12.5em 0 12.5em;
+    margin: 0px 3px 0px 3px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-top: 2em;
+}
+
+.tableContainer{
+    margin-bottom: 3em;
+}
+
+table{
+    
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    
+    border: 2px solid white;
+    padding: 10px 0 10px 0;
+}
+
+td {
+    text-align:center;
+}
+
+.tableName{
+    display: inline;
+    position: relative;
+    
+}
+
+button{
+    border: 0;
+}
+
+.tableBtn{
+    display: inline;
+    float: right;
+    border: 0;
+    margin-left: 25px;   
+}
+
+.addData{
+    border: 3px solid white;
+    background: none;
+}
+
+.modifyColumn{
+    width: 10%;
+}
+
+#label{
+    text-align: center;
+}
+
+.tableLabel{
+    background: #2c3454;
+    padding: 10px 1em 10px 1em;
+}
+
+.tablerowBtn{
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+.tablerowBtn:hover{
+    background-color: #294eaa;
+    cursor: pointer;
+}
+.btnCell{
+    padding: 0;
+}
