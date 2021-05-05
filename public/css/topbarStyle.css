@@ -1,0 +1,68 @@
+#topbar{
+    display: grid;
+    grid-template-columns:20% 60% 6.6% 13.4%;
+    background-color: #051431;
+    height: 7.5vh;
+    font-weight: 700;
+}
+
+#title{  
+    margin: auto;
+    position: relative;
+}
+
+#userArea{
+    display: inline;
+    margin: auto 0;
+}
+
+#icon{
+    display: inline;
+    float: left;
+    margin: 0 1.5em;
+}
+
+#userName{
+    display: inline;
+}
+
+.login{
+    background-color: #051431;
+    border: none;
+    outline: none;
+}
+.login:hover{
+    background-color: #294eaa;
+    cursor: pointer;
+}
+
+#logout{
+    text-align: center;
+    background-color: #310505;
+}
+
+#logoutText{
+    position: relative;
+    top:19px;
+    font-size: 12px;
+    font-weight: normal;
+    display: inline;
+}
+
+#logoutIcon{
+    display: inline;
+    position: relative;
+    top: 4px;
+    left: .25em;
+}
+
+#logoutBtn{
+    display: inline;
+    position: relative;
+    bottom: 25px;
+    left: 43.5vw;
+}
+
+#logout:hover{
+    background-color: #aa2929;
+}
